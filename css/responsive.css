@@ -1,0 +1,301 @@
+/* 
+  ##Device = Most of the Galaxy Fold Smartphones  (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+
+    /* CSS */
+    /* here we will reduce font size */
+    .container {
+        width: 100%;
+        margin: 0px auto;
+}
+.col-6 {
+    width: 100%;
+    float: left;
+}
+.col-4 {
+            width: 100%;
+            float: left;
+        }
+.header .logo{
+    display: block;
+    text-align: center;  /* display:block; because anchor tag is inline element */
+
+}
+
+.nav-menu{
+    text-align: center;
+}
+
+.nav-menu li a{
+    font-size: 10px;/*here 12-2=10px will increase*/
+    margin: 10px 5px 0px;
+}
+
+.banner{
+    padding: 40px 0px;
+}
+
+.banner h1{
+    font-size: 26px;/*here 28-2=26px will increase*/
+    line-height: 1.2em;
+}
+
+.banner p{
+    font-size: 10px;/*here 10-2=10px will increase*/
+    line-height: 1.7em;
+}
+
+.banner img{
+    width:80%;
+}
+
+.successfully{
+    width:100%;
+    padding: 10px 0px 30px;
+}
+
+.left-text{
+    text-align: left;
+}
+.left-text h1{
+    font-size: 28px;/*here 28-2=26px will increase*/
+    line-height: 1.2em;
+    margin: 0px 0px 0px 20px;
+}
+
+.left-text p{
+    font-size: 10px;/*here 10-2=10px will increase*/
+    line-height: 1.7em;
+    margin: 0px 0px 0px 20px;
+}
+.right-text h1{
+    font-size: 26px;/*here 26-2=26px will increase*/
+    line-height: 1.2em;
+}
+
+.inner-feature{
+    width: 60%;
+    margin: 0px 15px 15px;
+
+}
+.feature{
+    padding: 0px 0px 10px;
+}
+    /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+.container {
+        width: 100%;
+        margin: 0px auto;
+}
+.col-6 {
+    width: 100%;
+    float: left;
+}
+.col-4 {
+            width: 100%;
+            float: left;
+        }
+.header .logo{
+    display: block;
+    text-align: center;  /* display:block; because anchor tag is inline element */
+
+}
+
+.nav-menu{
+    text-align: center;
+}
+
+.nav-menu li a{
+    font-size: 12px;
+}
+
+.banner{
+    padding: 40px 0px;
+}
+
+.banner h1{
+    font-size: 28px;
+    line-height: 1.2em;
+}
+
+.banner p{
+    font-size: 12px;
+    line-height: 1.7em;
+}
+
+.banner img{
+    width:80%;
+}
+
+.successfully{
+    width:100%;
+    padding: 10px 0px 30px;
+}
+
+.left-text{
+    text-align: left;
+}
+.left-text h1{
+    font-size: 28px;
+    line-height: 1.2em;
+    margin: 0px 0px 0px 20px;
+}
+
+.left-text p{
+    font-size: 12px;
+    line-height: 1.7em;
+    margin: 0px 0px 0px 20px;
+}
+.right-text h1{
+    font-size: 28px;
+    line-height: 1.2em;
+}
+
+.inner-feature{
+    margin: 0px 15px 15px;
+}
+.feature{
+    padding: 0px 0px 10px;
+}
+/* this code for mobile devices only */
+}
+    /* CSS */
+
+/* we start code at first form 320px to 480px */
+
+/* 
+  
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    .container {
+        width: 100%;
+        margin: 0px auto;
+}
+.col-6 {
+    width: 100%;
+    float: left;
+}
+.col-4 {
+            width: 100%;
+            float: left;
+        }
+.header .logo{
+    display: block;
+    text-align: center;  /* display:block; because anchor tag is inline element */
+
+}
+
+.nav-menu{
+    text-align: center;
+}
+
+.nav-menu li a{
+    font-size: 13px; /*here 12+1=13px will increase*/
+}
+
+.banner{
+    padding: 50px 0px;/*here 40px to 10px will increase*/
+}
+
+.banner h1{
+    font-size: 30px;/*here 28px to 30px will increase*/
+    line-height: 1.2em;
+}
+
+.banner p{
+    font-size: 13px;/*here 12px to 13px will increase*/
+    line-height: 1.7em;
+}
+
+.banner img{
+    width:80%;
+}
+
+.successfully{
+    width:100%;
+    padding: 10px 0px 40px;/*here 30px to 40px will increase*/
+}
+
+.left-text{
+    text-align: left;
+}
+.left-text h1{
+    font-size: 30px;/*here 28px to 30px will increase*/
+    line-height: 1.2em;
+    margin: 0px 0px 0px 20px;
+}
+
+.left-text p{
+    font-size: 13px;/*here 12px to 13px will increase*/
+    line-height: 1.7em;
+    margin: 0px 0px 0px 20px;
+}
+.right-text h1{
+    font-size: 30px;/*here 28px to 30px will increase*/
+    line-height: 1.2em;
+}
+
+.inner-feature{
+    margin: 0px 15px 15px;
+}
+.feature{
+    padding: 0px 0px 10px;
+}
+    /* CSS */
+}
+
+
+/* 
+  ##Device = Tablets, Ipads, Notebook (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    .container {
+        width: 90%;
+        margin: 0px auto; 
+    }
+
+    .nav-menu li a{
+        display: block;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 10px 10px 0px;
+    }
+
+    .right-text h1 {
+        font-size: 50px;
+        font-weight: 700;
+        Line-height: 70px;
+        color: #162A57;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    }
+
+    /* CSS */
+
