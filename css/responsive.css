@@ -1,98 +1,3 @@
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 65px) and (max-width: 279px) {
-
-    /* CSS */
-.container {
-        width: 100%;
-        margin: 0px auto;
-}
-.col-6 {
-    width: 100%;
-    float: left;
-}
-.col-4 {
-            width: 100%;
-            float: left;
-        }
-.header .logo{
-    display: block;
-    text-align: center;  /* display:block; because anchor tag is inline element */
-
-}
-
-.nav-menu{
-    text-align: center;
-}
-
-.nav-menu li a{
-    font-size: 12px;
-}
-
-.banner{
-    padding: 40px 0px;
-}
-
-.banner h1{
-    font-size: 28px;
-    line-height: 1.2em;
-}
-
-.banner p{
-    font-size: 12px;
-    line-height: 1.7em;
-}
-
-.banner img{
-    width:80%;
-}
-
-.successfully{
-    width:100%;
-    padding: 10px 0px 30px;
-}
-
-.left-text{
-    text-align: left;
-}
-.left-text h1{
-    font-size: 28px;
-    line-height: 1.2em;
-    margin: 0px 0px 0px 20px;
-}
-
-.left-text p{
-    font-size: 12px;
-    line-height: 1.7em;
-    margin: 0px 0px 0px 20px;
-}
-.right-text h1{
-    font-size: 28px;
-    line-height: 1.2em;
-}
-
-.inner-feature{
-    margin: 0px 15px 15px;
-}
-.feature{
-    padding: 0px 0px 10px;
-}
-/* this code for mobile devices only */
-}
-    /* CSS */
-
-/* we start code at first form 320px to 480px */
-
-/* 
-  
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
 /* 
   ##Device = Most of the Galaxy Fold Smartphones  (Portrait)
   ##Screen = B/w 279px to 319px
@@ -116,7 +21,7 @@
         }
 .header .logo{
     display: block;
-    text-align: center;  
+    text-align: center;  /* display:block; because anchor tag is inline element */
 
 }
 
